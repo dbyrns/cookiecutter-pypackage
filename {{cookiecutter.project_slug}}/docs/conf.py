@@ -281,11 +281,3 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 # texinfo_no_detailmenu = False
-
-intersphinx_mapping = {
-    'celery': ('http://docs.celeryproject.org/en/latest/', None),
-    'refcom_gateway': ('http://www.crim.ca/perso/frederic.osterrath/refcom/gateway/latest/',
-          ('../../refcom_gateway/docs/_build/html/objects.inv', None)),
-    'sg': ('http://www.crim.ca/perso/frederic.osterrath/refcom/SG/latest/',
-          ('../../SG/docs/_build/html/objects.inv', None))
-    }
